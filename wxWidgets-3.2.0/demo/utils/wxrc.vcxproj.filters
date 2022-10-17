@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\hanwenzhi_code\wxwidgets\backup\wxWidgets-3.2.0\utils\wxrc\wxrc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\hanwenzhi_code\wxwidgets\backup\wxWidgets-3.2.0\build\cmake\utils\CMakeLists.txt">
+      <Filter>CMake</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake">
+      <UniqueIdentifier>{F88B7093-D783-3CFC-A762-A5357A223E82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B6ECBD28-EC7E-33F5-9E30-ADC50CB4E083}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

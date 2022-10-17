@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+
+    <ClCompile Include="src\richtext\richtextbuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\richtext\richtextctrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\richtext\richtextformatdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\richtext\richtexthtml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\richtext\richtextimagedlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\richtext\richtextprint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\richtext\richtextstyledlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\richtext\richtextstyles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\richtext\richtextsymboldlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\richtext\richtextxml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xrc\xh_richtext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\wx\richtext\richtextbackgroundpage.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wx\richtext\richtextborderspage.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wx\richtext\richtextbuffer.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wx\richtext\richtextbulletspage.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wx\richtext\richtextctrl.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wx\richtext\richtextdialogpage.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wx\richtext\richtextfontpage.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wx\richtext\richtextformatdlg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wx\richtext\richtexthtml.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wx\richtext\richtextimagedlg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wx\richtext\richtextindentspage.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wx\richtext\richtextliststylepage.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wx\richtext\richtextmarginspage.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wx\richtext\richtextprint.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wx\richtext\richtextsizepage.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wx\richtext\richtextstyledlg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wx\richtext\richtextstylepage.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wx\richtext\richtextstyles.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wx\richtext\richtextsymboldlg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wx\richtext\richtexttabspage.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wx\richtext\richtextuicustomization.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wx\richtext\richtextxml.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wx\xrc\xh_richtext.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wx\setup.h">
+      <Filter>Setup Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wx\msw\genrcdefs.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <ResourceCompile Include="src\msw\version.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake">
+      <UniqueIdentifier>{F88B7093-D783-3CFC-A762-A5357A223E82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Headers">
+      <UniqueIdentifier>{1DD0D5BD-693F-3213-B344-ECA47079ACA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MSW Headers">
+      <UniqueIdentifier>{3AD61F47-31CD-384F-A6AE-BA22577BC62B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{2FD891CC-5466-3EEE-985F-C7AFDCA67B81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Setup Headers">
+      <UniqueIdentifier>{197271B7-E0B4-38B8-9105-1A59E6565599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B6ECBD28-EC7E-33F5-9E30-ADC50CB4E083}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
