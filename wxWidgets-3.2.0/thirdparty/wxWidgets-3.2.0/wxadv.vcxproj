@@ -63,11 +63,6 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;WXDLLNAME=wxadv;WXBUILDING;wxUSE_GUI=1;wxUSE_BASE=0;UNICODE;_UNICODE;_CRT_SECURE_NO_DEPRECATE=1;_CRT_NON_CONFORMING_SWPRINTFS=1;_SCL_SECURE_NO_WARNINGS=1;_WINSOCK_DEPRECATED_NO_WARNINGS=1;__WXMSW__;WXMAKINGDLL_ADV;WXUSINGDLL;WX_PRECOMP;wxadv_EXPORTS</PreprocessorDefinitions>
     </ClCompile>
-    <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;WXDLLNAME=wxmsw32ud_adv_vc;WXBUILDING;wxUSE_GUI=1;wxUSE_BASE=0;UNICODE;_UNICODE;_CRT_SECURE_NO_DEPRECATE=1;_CRT_NON_CONFORMING_SWPRINTFS=1;_SCL_SECURE_NO_WARNINGS=1;_WINSOCK_DEPRECATED_NO_WARNINGS=1;__WXMSW__;WXMAKINGDLL_ADV;WXUSINGDLL;WX_PRECOMP;wxadv_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>lib\vc_x64_dll\mswud;include;</AdditionalIncludeDirectories>
-    </ResourceCompile>
-    
     <Link>
       <AdditionalDependencies>wxbase.lib;wxcore.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;winmm.lib;shell32.lib;shlwapi.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;rpcrt4.lib;advapi32.lib;version.lib;ws2_32.lib;wininet.lib;oleacc.lib;uxtheme.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
@@ -94,11 +89,6 @@
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
-    <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WXDLLNAME=wxmsw32u_adv_vc;WXBUILDING;wxUSE_GUI=1;wxUSE_BASE=0;UNICODE;_UNICODE;_CRT_SECURE_NO_DEPRECATE=1;_CRT_NON_CONFORMING_SWPRINTFS=1;_SCL_SECURE_NO_WARNINGS=1;_WINSOCK_DEPRECATED_NO_WARNINGS=1;__WXMSW__;WXMAKINGDLL_ADV;WXUSINGDLL;WX_PRECOMP;wxadv_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>lib\vc_x64_dll\mswu;include;</AdditionalIncludeDirectories>
-    </ResourceCompile>
-    
     <Link>
       <AdditionalDependencies>wxbase.lib;wxcore.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;winmm.lib;shell32.lib;shlwapi.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;rpcrt4.lib;advapi32.lib;version.lib;ws2_32.lib;wininet.lib;oleacc.lib;uxtheme.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
@@ -114,7 +104,6 @@
   <ItemGroup>
     <ClCompile Include="src\common\dummy.cpp" />
     <ClInclude Include="include\wx\setup.h" />
-    <ResourceCompile Include="src\msw\version.rc" />
     <ClInclude Include="include\wx\msw\genrcdefs.h" />
   </ItemGroup>
   <ItemGroup>

@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-
     <ClCompile Include="src\html\helpctrl.cpp">
       <Filter>wxHTML Sources</Filter>
     </ClCompile>
@@ -151,13 +150,6 @@
     <ClInclude Include="include\wx\msw\genrcdefs.h">
       <Filter>MSW Headers</Filter>
     </ClInclude>
-
-  </ItemGroup>
-
-  <ItemGroup>
-    <ResourceCompile Include="src\msw\version.rc">
-      <Filter>Resource Files</Filter>
-    </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake">
@@ -174,9 +166,6 @@
     </Filter>
     <Filter Include="MSW Sources">
       <UniqueIdentifier>{4A55DE4E-23DD-3E7C-9791-F0192F2E8E16}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{2FD891CC-5466-3EEE-985F-C7AFDCA67B81}</UniqueIdentifier>
     </Filter>
     <Filter Include="Setup Headers">
       <UniqueIdentifier>{197271B7-E0B4-38B8-9105-1A59E6565599}</UniqueIdentifier>

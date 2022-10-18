@@ -92,11 +92,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="src\msw\version.rc">
-      <Filter>Resource Files</Filter>
-    </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
     <Filter Include="Common Headers">
       <UniqueIdentifier>{1DD0D5BD-693F-3213-B344-ECA47079ACA7}</UniqueIdentifier>
     </Filter>
@@ -108,9 +103,6 @@
     </Filter>
     <Filter Include="MSW Sources">
       <UniqueIdentifier>{4A55DE4E-23DD-3E7C-9791-F0192F2E8E16}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{2FD891CC-5466-3EEE-985F-C7AFDCA67B81}</UniqueIdentifier>
     </Filter>
     <Filter Include="Setup Headers">
       <UniqueIdentifier>{197271B7-E0B4-38B8-9105-1A59E6565599}</UniqueIdentifier>
