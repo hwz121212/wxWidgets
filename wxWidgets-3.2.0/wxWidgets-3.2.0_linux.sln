@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.2092
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_thirdparty_base", "0_thirdparty_base", "{EBBBC5AB-E662-45E5-BA81-FB445F6B829F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_thirdparty_base", "1_thirdparty_base", "{EBBBC5AB-E662-45E5-BA81-FB445F6B829F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_thirdparty_wxwidgets", "0_thirdparty_wxwidgets", "{5EA2C534-BD52-4C1D-ABC7-0975EC53EC75}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_thirdparty_wxwidgets", "2_thirdparty_wxwidgets", "{5EA2C534-BD52-4C1D-ABC7-0975EC53EC75}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libexpat", "thirdparty\expat-R_2_4_8\libexpat_linux.vcxproj", "{764CCA10-E1FE-48B2-A2CC-E628AACD8823}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtiff", "thirdparty\tiff-4.4.0\libtiff_linux.vcxproj", "{3123B0CF-694C-487F-BA5C-80057FE3CCD9}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libzlib", "thirdparty\zlib-1.2.12\libzlib_linux.vcxproj", "{DB7256DC-B178-4EE0-BE58-849D318E7FFB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libnanosvg", "thirdparty\nanosvg\libnanosvg_linux.vcxproj", "{8633CE95-0B55-4396-BBE6-11104C771299}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{DB7256DC-B178-4EE0-BE58-849D318E7FFB}.Debug|x64.Build.0 = Debug|x64
 		{DB7256DC-B178-4EE0-BE58-849D318E7FFB}.Release|x64.ActiveCfg = Release|x64
 		{DB7256DC-B178-4EE0-BE58-849D318E7FFB}.Release|x64.Build.0 = Release|x64
+		{8633CE95-0B55-4396-BBE6-11104C771299}.Debug|x64.ActiveCfg = Debug|x64
+		{8633CE95-0B55-4396-BBE6-11104C771299}.Debug|x64.Build.0 = Debug|x64
+		{8633CE95-0B55-4396-BBE6-11104C771299}.Release|x64.ActiveCfg = Release|x64
+		{8633CE95-0B55-4396-BBE6-11104C771299}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{CB5D98EC-AB3A-4085-BB31-C290BF8A55B6} = {EBBBC5AB-E662-45E5-BA81-FB445F6B829F}
 		{3123B0CF-694C-487F-BA5C-80057FE3CCD9} = {EBBBC5AB-E662-45E5-BA81-FB445F6B829F}
 		{DB7256DC-B178-4EE0-BE58-849D318E7FFB} = {EBBBC5AB-E662-45E5-BA81-FB445F6B829F}
+		{8633CE95-0B55-4396-BBE6-11104C771299} = {EBBBC5AB-E662-45E5-BA81-FB445F6B829F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5806D430-DEB4-4E2B-8838-C80B410D7661}
