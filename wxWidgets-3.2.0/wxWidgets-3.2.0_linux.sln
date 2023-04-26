@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2092
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_thirdparty_base", "0_thirdparty_base", "{EBBBC5AB-E662-45E5-BA81-FB445F6B829F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_thirdparty_wxwidgets", "0_thirdparty_wxwidgets", "{5EA2C534-BD52-4C1D-ABC7-0975EC53EC75}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libexpat", "thirdparty\expat-R_2_4_8\libexpat_linux.vcxproj", "{764CCA10-E1FE-48B2-A2CC-E628AACD8823}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libjpeg", "thirdparty\jpeg-9e\libjpeg_linux.vcxproj", "{791642ED-9E59-4F42-927B-3562F869D9C1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpcre2", "thirdparty\pcre2-10.40\libpcre2_linux.vcxproj", "{78E1B402-423D-407C-82B1-BFF6AE6AA240}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpng", "thirdparty\png1637\libpng_linux.vcxproj", "{64115EAD-0022-4772-9495-D640DC7BECD2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libscintilla", "thirdparty\scintilla-3.7.2\libscintilla_linux.vcxproj", "{CB5D98EC-AB3A-4085-BB31-C290BF8A55B6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtiff", "thirdparty\tiff-4.4.0\libtiff_linux.vcxproj", "{3123B0CF-694C-487F-BA5C-80057FE3CCD9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libzlib", "thirdparty\zlib-1.2.12\libzlib_linux.vcxproj", "{DB7256DC-B178-4EE0-BE58-849D318E7FFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{764CCA10-E1FE-48B2-A2CC-E628AACD8823}.Debug|x64.ActiveCfg = Debug|x64
+		{764CCA10-E1FE-48B2-A2CC-E628AACD8823}.Debug|x64.Build.0 = Debug|x64
+		{764CCA10-E1FE-48B2-A2CC-E628AACD8823}.Release|x64.ActiveCfg = Release|x64
+		{764CCA10-E1FE-48B2-A2CC-E628AACD8823}.Release|x64.Build.0 = Release|x64
+		{791642ED-9E59-4F42-927B-3562F869D9C1}.Debug|x64.ActiveCfg = Debug|x64
+		{791642ED-9E59-4F42-927B-3562F869D9C1}.Debug|x64.Build.0 = Debug|x64
+		{791642ED-9E59-4F42-927B-3562F869D9C1}.Release|x64.ActiveCfg = Release|x64
+		{791642ED-9E59-4F42-927B-3562F869D9C1}.Release|x64.Build.0 = Release|x64
+		{78E1B402-423D-407C-82B1-BFF6AE6AA240}.Debug|x64.ActiveCfg = Debug|x64
+		{78E1B402-423D-407C-82B1-BFF6AE6AA240}.Debug|x64.Build.0 = Debug|x64
+		{78E1B402-423D-407C-82B1-BFF6AE6AA240}.Release|x64.ActiveCfg = Release|x64
+		{78E1B402-423D-407C-82B1-BFF6AE6AA240}.Release|x64.Build.0 = Release|x64
+		{64115EAD-0022-4772-9495-D640DC7BECD2}.Debug|x64.ActiveCfg = Debug|x64
+		{64115EAD-0022-4772-9495-D640DC7BECD2}.Debug|x64.Build.0 = Debug|x64
+		{64115EAD-0022-4772-9495-D640DC7BECD2}.Release|x64.ActiveCfg = Release|x64
+		{64115EAD-0022-4772-9495-D640DC7BECD2}.Release|x64.Build.0 = Release|x64
+		{CB5D98EC-AB3A-4085-BB31-C290BF8A55B6}.Debug|x64.ActiveCfg = Debug|x64
+		{CB5D98EC-AB3A-4085-BB31-C290BF8A55B6}.Debug|x64.Build.0 = Debug|x64
+		{CB5D98EC-AB3A-4085-BB31-C290BF8A55B6}.Release|x64.ActiveCfg = Release|x64
+		{CB5D98EC-AB3A-4085-BB31-C290BF8A55B6}.Release|x64.Build.0 = Release|x64
+		{3123B0CF-694C-487F-BA5C-80057FE3CCD9}.Debug|x64.ActiveCfg = Debug|x64
+		{3123B0CF-694C-487F-BA5C-80057FE3CCD9}.Debug|x64.Build.0 = Debug|x64
+		{3123B0CF-694C-487F-BA5C-80057FE3CCD9}.Release|x64.ActiveCfg = Release|x64
+		{3123B0CF-694C-487F-BA5C-80057FE3CCD9}.Release|x64.Build.0 = Release|x64
+		{DB7256DC-B178-4EE0-BE58-849D318E7FFB}.Debug|x64.ActiveCfg = Debug|x64
+		{DB7256DC-B178-4EE0-BE58-849D318E7FFB}.Debug|x64.Build.0 = Debug|x64
+		{DB7256DC-B178-4EE0-BE58-849D318E7FFB}.Release|x64.ActiveCfg = Release|x64
+		{DB7256DC-B178-4EE0-BE58-849D318E7FFB}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{764CCA10-E1FE-48B2-A2CC-E628AACD8823} = {EBBBC5AB-E662-45E5-BA81-FB445F6B829F}
+		{791642ED-9E59-4F42-927B-3562F869D9C1} = {EBBBC5AB-E662-45E5-BA81-FB445F6B829F}
+		{78E1B402-423D-407C-82B1-BFF6AE6AA240} = {EBBBC5AB-E662-45E5-BA81-FB445F6B829F}
+		{64115EAD-0022-4772-9495-D640DC7BECD2} = {EBBBC5AB-E662-45E5-BA81-FB445F6B829F}
+		{CB5D98EC-AB3A-4085-BB31-C290BF8A55B6} = {EBBBC5AB-E662-45E5-BA81-FB445F6B829F}
+		{3123B0CF-694C-487F-BA5C-80057FE3CCD9} = {EBBBC5AB-E662-45E5-BA81-FB445F6B829F}
+		{DB7256DC-B178-4EE0-BE58-849D318E7FFB} = {EBBBC5AB-E662-45E5-BA81-FB445F6B829F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5806D430-DEB4-4E2B-8838-C80B410D7661}
+	EndGlobalSection
+EndGlobal
