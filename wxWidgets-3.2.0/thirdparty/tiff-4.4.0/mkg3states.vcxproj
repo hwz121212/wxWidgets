@@ -62,7 +62,6 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;TIFF_DISABLE_DEPRECATED;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS</PreprocessorDefinitions>
     </ClCompile>
-    
     <Link>
       <AdditionalDependencies>tiff.lib;libport.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
@@ -87,7 +86,6 @@
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
-    
     <Link>
       <AdditionalDependencies>tiff.lib;libport.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
@@ -100,10 +98,7 @@
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\placeholder.h" />
     <ClCompile Include="src\mkg3states.c" />
-    <ClInclude Include="include\tif_fax3.h" />
-    <ClCompile Include="port\getopt.c" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

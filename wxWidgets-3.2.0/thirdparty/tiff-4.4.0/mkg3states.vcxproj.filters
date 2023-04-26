@@ -4,17 +4,6 @@
     <ClCompile Include="src\mkg3states.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="port\getopt.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="include\placeholder.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\tif_fax3.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
